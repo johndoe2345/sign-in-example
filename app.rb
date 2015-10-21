@@ -26,7 +26,7 @@ require 'sinatra/activerecord'
 require 'sinatra/flash'
 require './models'
 
-set :database, "sqlite3:sign-in.sqlite3"
+configure(:development){set :database, "sqlite3:sign-in.sqlite3"}
 enable :sessions
 
 get '/' do
