@@ -1,1 +1,1 @@
-Orlando Carabello's basic sign-in example. Uses sessions and flash messages.
+Orlando's basic sign-in example. Uses sessions and flash messages.
