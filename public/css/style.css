@@ -1,0 +1,58 @@
+body{
+	background-color: black;
+}
+.flash-notice{
+	width: 80%;
+	height: 1.5em;
+	background-color: green;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 15px;
+	font-family: 'Orbitron', sans-serif;
+/*	display: none;*/
+}
+.flash-alert{
+	width: 80%;
+	height: 1.5em;
+	background-color: orange;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 15px;
+	font-family: 'Orbitron', sans-serif;
+/*	display: none;*/
+}
+.rab{
+	width: 100%;
+}
+h1{
+	color: green;
+	font-family: 'Roboto Mono';
+}
+.code-gif{
+	width: 100%;
+}
+h2 a{
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	font-family: 'Roboto Mono';
+}
+h2 a:visited{
+	color: blue;
+}
+form{
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	color: green;
+	font-family: 'Roboto Mono';
+}
+input[value]{
+	background-color: red;
+	display: block;
+	margin-top: 10px;
+}
+label{
+	display: block;
+}

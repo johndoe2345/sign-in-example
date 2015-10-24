@@ -2,8 +2,7 @@
 	<h1>Welcome <%= @user.fname.capitalize %></h1>
 	<h1>You have chose to know the truth...</h1>
 	<h2><a href="/sign-out">Choose the Blue Pill</a></h2>
-	<img src="images/matrix.gif" />
+	<img class="code-gif" src="images/matrix.gif" />
 <% else %>
-	<h1><a href="/sign-in">Follow the white rabbit!</a></h1>
-	<img src="images/white_rabbit.png" />
+	<a href="/sign-in"><img class="rab" src="images/white_rabbit.png" /></a>
 <% end %>

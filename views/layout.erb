@@ -3,18 +3,22 @@
 <head>
   <title><%= @title %></title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+<!--  <script type="text/javascript" src="js/script.js"></script> -->
 </head>
 <body>
   <% if flash[:notice] %>
-    <h1 class="flash-notice">
+    <h2 class="flash-notice">
       <%= flash[:notice] %>
-    </h1>
+    </h2>
   <% end %>
   <% if flash[:alert] %>
-    <h1 class="flash-alert">
+    <h2 class="flash-alert">
       <%= flash[:alert] %>
-    </h1>
+    </h2>
   <% end %>
   <%= yield %>
 </body>
 <html>
+
